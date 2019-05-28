@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="android:TextAppearance">
+        <item name="android:textColor">@color/titlecolour</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:fontFamily">casual</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/lr</item>
+    </style>
+</resources>
